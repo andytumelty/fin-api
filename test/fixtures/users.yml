@@ -1,0 +1,9 @@
+#one:
+#  email: 'one@test.com' 
+#  password: 'test'
+#  password_confirmation: 'test'
+#
+#two:
+#  email: 'two@test.com' 
+#  password: 'test'
+#  password_confirmation: 'test'
