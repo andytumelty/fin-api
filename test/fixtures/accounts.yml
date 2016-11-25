@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+account_one:
+  name: account_one
+  user: user_one
+
+account_two:
+  name: account_two
+  user: user_one
+
+account_three:
+  name: account_three
+  user: user_two
