@@ -2,15 +2,9 @@ require 'test_helper'
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
   setup do
-    password = 'test'
-    # FIXME shouldn't create here
-    @user = User.create(
-      email: 'integration@email.com',
-      password: password,
-      password_confirmation: password
-    )
+    @user = users(:user_one)
     @user_auth = ActionController::HttpAuthentication::Basic.
-      encode_credentials(@user.email, @user.password)
+      encode_credentials(@user.email, 'test')
   end
 
   test "should create user" do
