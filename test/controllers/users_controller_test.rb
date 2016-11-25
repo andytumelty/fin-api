@@ -82,4 +82,8 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
       as: :json
     assert_response 401
   end
+
+  test "should get accounts" do
+    flunk
+  end
 end
